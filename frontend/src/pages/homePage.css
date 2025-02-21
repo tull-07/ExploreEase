@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+
+body {
+    background-color: black;
+    font-family: "Irish Grover", serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1024px;
+    min-width: 768px;
+    height: 100vh;
+    background-color: #6989C6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+}
+
+.topContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+    color: black;
+}
+
+.topContainer h1 {
+    margin: 5%;
+    color: white;
+    font-size: 45px;
+}
+
+.bottomContainer {
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottomContainer button {
+    font-family: "Irish Grover", serif;
+    border-radius: 8px;
+    box-shadow: 0 4px black;
+    font-size: 25px;
+    cursor: pointer;
+    background-color:white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+}
+
+@media (max-width: 360px) {
+
+.bottomContainer button {
+        border-radius: 8px;
+        box-shadow: 0 4px black;
+        font-size: 20px;
+        cursor: pointer;
+        background-color: white;
+        color: black;
+    }
+}
